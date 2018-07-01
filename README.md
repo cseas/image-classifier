@@ -69,8 +69,8 @@ ImageNet does not include any of these flower species we're training on here. Ho
 
 The retraining script writes data to the following two files:
 
-* tf_files/retrained_graph.pb, which contains a version of the selected network with a final layer retrained on your categories.
-* tf_files/retrained_labels.txt, which is a text file containing labels.
+* `tf_files/retrained_graph.pb`, which contains a version of the selected network with a final layer retrained on your categories.
+* `tf_files/retrained_labels.txt`, which is a text file containing labels.
 
 ## Classifying an image
 
