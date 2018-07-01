@@ -12,6 +12,8 @@ Under the hood, TensorFlow Poets starts with an existing classifier called Incep
 
 I concluded that Deep Learning has a major advantage when working with images. You don't need to extract features manually for classification. Instead, you can use the raw pixels of the image as features and the classifier will do the rest.
 
+To train a good image classifier, the keywords to keep in mind are diversity and quantity. Diversity means the more different types of images of a class we have, the better off we'll be. In this example, our training set for roses has pictures of red, white and yellow roses. We also have pictures taken at different angles. Also, there are pictures of roses in the foreground as well as the background. Quantity means more the training data we have, the better a classifier we're likely to create.
+
 ## Configure MobileNet
 
 I've retrained a [MobileNet](https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html). MobileNet is a small efficient convolutional neural network. "Convolutional" just means that the same calculations are performed at each location in the image.
